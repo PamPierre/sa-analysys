@@ -30,7 +30,7 @@ jobs:
         cache: maven
 
     - name: debug directory structure 1
-      run: ls -la
+      run: ls -la sa-analysys/
 
     - name: Enter to the Main directory
       run: cd sa-analysys
