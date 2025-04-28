@@ -32,6 +32,9 @@ jobs:
     - name: debug directory structure
       run: ls -la
 
+    - name: Enter to the Main directory
+      run: cd sa-analysys
+
     - name: Build with Maven
       run: mvn -B package
 
